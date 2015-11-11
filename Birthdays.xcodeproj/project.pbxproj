@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		501E2105293489D287AF2F9F /* Pods_Birthdays.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 759C3F6148E24C7380BF0DD9 /* Pods_Birthdays.framework */; };
+		6A617E8B1BF3F27C00068FE8 /* BirthdaysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A617E8A1BF3F27C00068FE8 /* BirthdaysTests.swift */; };
 		C8C1D5921B98E103007B7B70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C1D5911B98E103007B7B70 /* AppDelegate.swift */; };
 		C8C1D5971B98E103007B7B70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8C1D5951B98E103007B7B70 /* Main.storyboard */; };
 		C8C1D59A1B98E103007B7B70 /* Birthdays.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C8C1D5981B98E103007B7B70 /* Birthdays.xcdatamodeld */; };
 		C8C1D59C1B98E103007B7B70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8C1D59B1B98E103007B7B70 /* Assets.xcassets */; };
 		C8C1D59F1B98E103007B7B70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8C1D59D1B98E103007B7B70 /* LaunchScreen.storyboard */; };
-		C8C1D5AA1B98E103007B7B70 /* BirthdaysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C1D5A91B98E103007B7B70 /* BirthdaysTests.swift */; };
 		C8C1D5B51B98E103007B7B70 /* BirthdaysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C1D5B41B98E103007B7B70 /* BirthdaysUITests.swift */; };
 		C8C1D5C51B98E17F007B7B70 /* PersonInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C1D5C31B98E17F007B7B70 /* PersonInfo.swift */; };
 		C8C1D5C61B98E17F007B7B70 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C1D5C41B98E17F007B7B70 /* Person.swift */; };
@@ -22,11 +23,10 @@
 		C8C1D5D01B98E194007B7B70 /* PeopleListDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C1D5CA1B98E194007B7B70 /* PeopleListDataProvider.swift */; };
 		C8C1D5D11B98E194007B7B70 /* PeopleListDataProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C1D5CB1B98E194007B7B70 /* PeopleListDataProviderProtocol.swift */; };
 		C8C1D5D21B98E194007B7B70 /* PeopleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C1D5CC1B98E194007B7B70 /* PeopleListViewController.swift */; };
-		E7B105FE97763A65E221A765 /* Pods_BirthdaysTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B881EB581E4F19BB8D679D6 /* Pods_BirthdaysTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C8C1D5A61B98E103007B7B70 /* PBXContainerItemProxy */ = {
+		6A617E8D1BF3F27C00068FE8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C8C1D5861B98E103007B7B70 /* Project object */;
 			proxyType = 1;
@@ -43,8 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1DBC4F521DACF963280DBC79 /* Pods-Birthdays.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Birthdays.release.xcconfig"; path = "Pods/Target Support Files/Pods-Birthdays/Pods-Birthdays.release.xcconfig"; sourceTree = "<group>"; };
 		2B881EB581E4F19BB8D679D6 /* Pods_BirthdaysTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BirthdaysTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		307BEC8E1FB6B7905278170A /* Pods-BirthdaysTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BirthdaysTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BirthdaysTests/Pods-BirthdaysTests.debug.xcconfig"; sourceTree = "<group>"; };
+		58BEC588BEE127E6FA261E9D /* Pods-Birthdays.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Birthdays.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Birthdays/Pods-Birthdays.debug.xcconfig"; sourceTree = "<group>"; };
+		6A617E881BF3F27C00068FE8 /* BirthdaysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirthdaysTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A617E8A1BF3F27C00068FE8 /* BirthdaysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdaysTests.swift; sourceTree = "<group>"; };
+		6A617E8C1BF3F27C00068FE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		759C3F6148E24C7380BF0DD9 /* Pods_Birthdays.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Birthdays.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8C1D58E1B98E103007B7B70 /* Birthdays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Birthdays.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8C1D5911B98E103007B7B70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8C1D5961B98E103007B7B70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -52,7 +58,6 @@
 		C8C1D59B1B98E103007B7B70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8C1D59E1B98E103007B7B70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C8C1D5A01B98E103007B7B70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C8C1D5A51B98E103007B7B70 /* BirthdaysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirthdaysTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8C1D5A91B98E103007B7B70 /* BirthdaysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdaysTests.swift; sourceTree = "<group>"; };
 		C8C1D5AB1B98E103007B7B70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8C1D5B01B98E103007B7B70 /* BirthdaysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirthdaysUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,18 +75,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C8C1D58B1B98E103007B7B70 /* Frameworks */ = {
+		6A617E851BF3F27C00068FE8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8C1D5A21B98E103007B7B70 /* Frameworks */ = {
+		C8C1D58B1B98E103007B7B70 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7B105FE97763A65E221A765 /* Pods_BirthdaysTests.framework in Frameworks */,
+				501E2105293489D287AF2F9F /* Pods_Birthdays.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +105,8 @@
 			children = (
 				307BEC8E1FB6B7905278170A /* Pods-BirthdaysTests.debug.xcconfig */,
 				F0ADDD100704AF029FEFC3E0 /* Pods-BirthdaysTests.release.xcconfig */,
+				58BEC588BEE127E6FA261E9D /* Pods-Birthdays.debug.xcconfig */,
+				1DBC4F521DACF963280DBC79 /* Pods-Birthdays.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -108,8 +115,18 @@
 			isa = PBXGroup;
 			children = (
 				2B881EB581E4F19BB8D679D6 /* Pods_BirthdaysTests.framework */,
+				759C3F6148E24C7380BF0DD9 /* Pods_Birthdays.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A617E891BF3F27C00068FE8 /* BirthdaysTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A617E8A1BF3F27C00068FE8 /* BirthdaysTests.swift */,
+				6A617E8C1BF3F27C00068FE8 /* Info.plist */,
+			);
+			path = BirthdaysTests;
 			sourceTree = "<group>";
 		};
 		C8C1D5851B98E103007B7B70 = {
@@ -118,6 +135,7 @@
 				C8C1D5901B98E103007B7B70 /* Birthdays */,
 				C8C1D5A81B98E103007B7B70 /* BirthdaysTests */,
 				C8C1D5B31B98E103007B7B70 /* BirthdaysUITests */,
+				6A617E891BF3F27C00068FE8 /* BirthdaysTests */,
 				C8C1D58F1B98E103007B7B70 /* Products */,
 				1F46890D944C9150A7C06A65 /* Pods */,
 				612ECE37CD49A5FB6532A3FB /* Frameworks */,
@@ -128,8 +146,8 @@
 			isa = PBXGroup;
 			children = (
 				C8C1D58E1B98E103007B7B70 /* Birthdays.app */,
-				C8C1D5A51B98E103007B7B70 /* BirthdaysTests.xctest */,
 				C8C1D5B01B98E103007B7B70 /* BirthdaysUITests.xctest */,
+				6A617E881BF3F27C00068FE8 /* BirthdaysTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -184,13 +202,34 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		6A617E871BF3F27C00068FE8 /* BirthdaysTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A617E8F1BF3F27C00068FE8 /* Build configuration list for PBXNativeTarget "BirthdaysTests" */;
+			buildPhases = (
+				6A617E841BF3F27C00068FE8 /* Sources */,
+				6A617E851BF3F27C00068FE8 /* Frameworks */,
+				6A617E861BF3F27C00068FE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A617E8E1BF3F27C00068FE8 /* PBXTargetDependency */,
+			);
+			name = BirthdaysTests;
+			productName = BirthdaysTests;
+			productReference = 6A617E881BF3F27C00068FE8 /* BirthdaysTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		C8C1D58D1B98E103007B7B70 /* Birthdays */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C8C1D5B91B98E103007B7B70 /* Build configuration list for PBXNativeTarget "Birthdays" */;
 			buildPhases = (
+				41AE1912AEE34D3108BF5774 /* Check Pods Manifest.lock */,
 				C8C1D58A1B98E103007B7B70 /* Sources */,
 				C8C1D58B1B98E103007B7B70 /* Frameworks */,
 				C8C1D58C1B98E103007B7B70 /* Resources */,
+				592DBC9644265BDE9608BA28 /* Embed Pods Frameworks */,
+				16E8FCBD37A1AACC4C12A2FF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,27 +239,6 @@
 			productName = Birthdays;
 			productReference = C8C1D58E1B98E103007B7B70 /* Birthdays.app */;
 			productType = "com.apple.product-type.application";
-		};
-		C8C1D5A41B98E103007B7B70 /* BirthdaysTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C8C1D5BC1B98E103007B7B70 /* Build configuration list for PBXNativeTarget "BirthdaysTests" */;
-			buildPhases = (
-				124C184AA54688AC5D5D6A0B /* Check Pods Manifest.lock */,
-				C8C1D5A11B98E103007B7B70 /* Sources */,
-				C8C1D5A21B98E103007B7B70 /* Frameworks */,
-				C8C1D5A31B98E103007B7B70 /* Resources */,
-				AD8B87B830C217BAE98AFAC6 /* Embed Pods Frameworks */,
-				6555AC7DC7F5903B83F3EFA6 /* Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C8C1D5A71B98E103007B7B70 /* PBXTargetDependency */,
-			);
-			name = BirthdaysTests;
-			productName = BirthdaysTests;
-			productReference = C8C1D5A51B98E103007B7B70 /* BirthdaysTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		C8C1D5AF1B98E103007B7B70 /* BirthdaysUITests */ = {
 			isa = PBXNativeTarget;
@@ -246,15 +264,16 @@
 		C8C1D5861B98E103007B7B70 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Jackie;
 				TargetAttributes = {
+					6A617E871BF3F27C00068FE8 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = C8C1D58D1B98E103007B7B70;
+					};
 					C8C1D58D1B98E103007B7B70 = {
 						CreatedOnToolsVersion = 7.0;
-					};
-					C8C1D5A41B98E103007B7B70 = {
-						CreatedOnToolsVersion = 7.0;
-						TestTargetID = C8C1D58D1B98E103007B7B70;
 					};
 					C8C1D5AF1B98E103007B7B70 = {
 						CreatedOnToolsVersion = 7.0;
@@ -276,13 +295,20 @@
 			projectRoot = "";
 			targets = (
 				C8C1D58D1B98E103007B7B70 /* Birthdays */,
-				C8C1D5A41B98E103007B7B70 /* BirthdaysTests */,
 				C8C1D5AF1B98E103007B7B70 /* BirthdaysUITests */,
+				6A617E871BF3F27C00068FE8 /* BirthdaysTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6A617E861BF3F27C00068FE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C8C1D58C1B98E103007B7B70 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -290,13 +316,6 @@
 				C8C1D59F1B98E103007B7B70 /* LaunchScreen.storyboard in Resources */,
 				C8C1D59C1B98E103007B7B70 /* Assets.xcassets in Resources */,
 				C8C1D5971B98E103007B7B70 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C8C1D5A31B98E103007B7B70 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,7 +329,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		124C184AA54688AC5D5D6A0B /* Check Pods Manifest.lock */ = {
+		16E8FCBD37A1AACC4C12A2FF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Birthdays/Pods-Birthdays-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41AE1912AEE34D3108BF5774 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -325,22 +359,7 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		6555AC7DC7F5903B83F3EFA6 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BirthdaysTests/Pods-BirthdaysTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AD8B87B830C217BAE98AFAC6 /* Embed Pods Frameworks */ = {
+		592DBC9644265BDE9608BA28 /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -352,12 +371,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BirthdaysTests/Pods-BirthdaysTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Birthdays/Pods-Birthdays-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6A617E841BF3F27C00068FE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A617E8B1BF3F27C00068FE8 /* BirthdaysTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C8C1D58A1B98E103007B7B70 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -375,14 +402,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8C1D5A11B98E103007B7B70 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C8C1D5AA1B98E103007B7B70 /* BirthdaysTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C8C1D5AC1B98E103007B7B70 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -394,10 +413,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C8C1D5A71B98E103007B7B70 /* PBXTargetDependency */ = {
+		6A617E8E1BF3F27C00068FE8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C8C1D58D1B98E103007B7B70 /* Birthdays */;
-			targetProxy = C8C1D5A61B98E103007B7B70 /* PBXContainerItemProxy */;
+			targetProxy = 6A617E8D1BF3F27C00068FE8 /* PBXContainerItemProxy */;
 		};
 		C8C1D5B21B98E103007B7B70 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -426,6 +445,32 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		6A617E901BF3F27C00068FE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BirthdaysTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jackie.Birthdays.BirthdaysTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Birthdays.app/Birthdays";
+			};
+			name = Debug;
+		};
+		6A617E911BF3F27C00068FE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BirthdaysTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jackie.Birthdays.BirthdaysTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Birthdays.app/Birthdays";
+			};
+			name = Release;
+		};
 		C8C1D5B71B98E103007B7B70 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -511,6 +556,7 @@
 		};
 		C8C1D5BA1B98E103007B7B70 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58BEC588BEE127E6FA261E9D /* Pods-Birthdays.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Birthdays/Info.plist;
@@ -523,6 +569,7 @@
 		};
 		C8C1D5BB1B98E103007B7B70 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DBC4F521DACF963280DBC79 /* Pods-Birthdays.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Birthdays/Info.plist;
@@ -530,32 +577,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jackie.Birthdays;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		C8C1D5BD1B98E103007B7B70 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 307BEC8E1FB6B7905278170A /* Pods-BirthdaysTests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = BirthdaysTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jackie.BirthdaysTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Birthdays.app/Birthdays";
-			};
-			name = Debug;
-		};
-		C8C1D5BE1B98E103007B7B70 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F0ADDD100704AF029FEFC3E0 /* Pods-BirthdaysTests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = BirthdaysTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jackie.BirthdaysTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Birthdays.app/Birthdays";
 			};
 			name = Release;
 		};
@@ -586,6 +607,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6A617E8F1BF3F27C00068FE8 /* Build configuration list for PBXNativeTarget "BirthdaysTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A617E901BF3F27C00068FE8 /* Debug */,
+				6A617E911BF3F27C00068FE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		C8C1D5891B98E103007B7B70 /* Build configuration list for PBXProject "Birthdays" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -600,15 +629,6 @@
 			buildConfigurations = (
 				C8C1D5BA1B98E103007B7B70 /* Debug */,
 				C8C1D5BB1B98E103007B7B70 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C8C1D5BC1B98E103007B7B70 /* Build configuration list for PBXNativeTarget "BirthdaysTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C8C1D5BD1B98E103007B7B70 /* Debug */,
-				C8C1D5BE1B98E103007B7B70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

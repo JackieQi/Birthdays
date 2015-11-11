@@ -2,12 +2,11 @@
 //  BirthdaysTests.swift
 //  BirthdaysTests
 //
-//  Created by Jackie Qi on 9/3/15.
+//  Created by Build Server on 11/11/15.
 //  Copyright © 2015 Jackie. All rights reserved.
 //
 
 import XCTest
-@testable import Birthdays
 
 class BirthdaysTests: XCTestCase {
     
