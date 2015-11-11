@@ -33,14 +33,14 @@ platform :ios do
 
   desc "Runs all the tests"
   lane :test do
-    snapshot
+    # snapshot
   end
 
   desc "Submit a new Beta Build to Apple TestFlight"
   desc "This will also make sure the profile is up to date"
   lane :beta do
     # sigh
-    gym(scheme: "Birthdays") # Build your app - more options available
+    gym # Build your app - more options available
     pilot
 
     # sh "your_script.sh"
@@ -49,9 +49,9 @@ platform :ios do
 
   desc "Deploy a new version to the App Store"
   lane :deploy do
-    snapshot
+    # snapshot
     # sigh
-    gym(scheme: "Birthdays") # Build your app - more options available
+    gym # Build your app - more options available
     # deliver(force: true)
     # frameit
   end
