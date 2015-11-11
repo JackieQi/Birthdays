@@ -7,8 +7,7 @@ target 'Birthdays' do
 end
 
 target 'BirthdaysTests' do
- pod 'Quick', '~> 0.6.0'
- pod 'Nimble', '2.0.0-rc.3'
+
 end
 
 target 'BirthdaysUITests' do
