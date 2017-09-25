@@ -15,7 +15,7 @@ public class PeopleListDataProvider: NSObject, PeopleListDataProviderProtocol {
   weak public var tableView: UITableView!
   var _fetchedResultsController: NSFetchedResultsController? = nil
   
-  let dateFormatter: NSDateFormatter
+  let dateFormatter: DateFormatter
   
   override public init() {
     dateFormatter = NSDateFormatter()

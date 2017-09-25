@@ -13,7 +13,7 @@ import AddressBookUI
 public class PeopleListViewController: UITableViewController, NSFetchedResultsControllerDelegate {
   
   public var dataProvider: PeopleListDataProviderProtocol?
-  public var userDefaults = NSUserDefaults.standardUserDefaults()
+  public var userDefaults = UserDefaults.standard
   public var communicator: APICommunicatorProtocol = APICommunicator()
 
   override public func viewDidLoad() {
@@ -32,7 +32,7 @@ public class PeopleListViewController: UITableViewController, NSFetchedResultsCo
   func addPerson() {
     let picker = ABPeoplePickerNavigationController()
     picker.peoplePickerDelegate = self
-    presentViewController(picker, animated: true, completion: nil)
+    present(picker, animated: true, completion: nil)
   }
   
   public func fetchPeopleFromAPI() {
